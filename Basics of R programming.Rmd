@@ -1,0 +1,33 @@
+---
+title: "Basics"
+author: "SKarakala"
+date: "November 16, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Basics of R programming
+R programming basics can be divided into **Data Types**, **Data Structures**, and **Object Oriented Programming**_(OOP)_. Let's go briefly over them.
+
+## Data Types
+
+### a. Discrete type
+
+
+### b. Continous type
+
+### c. Special type 
+  * NULL  => No values
+  * NA    => Missing Values
+  * NaN   => Not A Number
+  * Inf   => Infinity
+
+
+## Data Structures
+### 1. Vectors
+### 2.
+
+## OOP

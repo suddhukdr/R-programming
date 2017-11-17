@@ -1,0 +1,69 @@
+---
+title: "Dealing with Missing Values"
+author: "SKarakala"
+date: "November 16, 2017"
+output: 
+  html_document:
+  css: Lucida_16.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Missing Data
+  <font size="4">R automatically coerce missing values to appropriate type.</font> 
+  
+  **NULL** has no type other than null  
+  **NA** has missing values
+  
+### Types of Missing Data
+***
+#### 1. Missingness Completly at Random _(MCAR)_  
+*      Missingness nothing to do with the data
+*      No Bias  
+
+#### 2. Missingness At Random _(MAR)_
+* Missingness is due to other variable(s) in the data
+* May have Bias  
+
+#### 3. Missingness Not At Random _(MNAR)_
+* Missingness due to variable itself
+* Surely have Bias
+
+## Dealing with NAs
+***
+Based on percentage of NAs in the data, dealing with NAs is of _Two_ types. 
+
+1. If percentage of NAs is _**Less than 5%**_ use <span style="color:red">*DELETION*</span> method.  
+
+* **Listwise Deletion** aka _Complete Case Analysis_
+    * Most common method
+    * Leave out all individual NAs
+    * Sample size _decreases_
+    * Bias is introduced    
+
+***
+
+*  **Pairwise Deletion**  
+    * Make use of data which are not NAs for each member (row)
+    * Sample size _preserved_
+    * Bias may introduced   
+    
+***
+
+2. If percentage of NAs is _**More than 5%**_ use <span style="color:red"> *IMPUTATION*</span> method.  
+
+  There are Two types of imputations.
+
+* **Single Imputation** where NAs are replaced with unknown values  
+
+* **Multiple Imputation** where NAs are replaced with distribution of known values, retaining variance or uncertinity.  
+
+Other **APPROACHES** are  
+
+* **Multivariate Normal Distribution** use _Amelia_ Package
+* **Chained Equation**  
+
+***
+Libraries needed: 
+
