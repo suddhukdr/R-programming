@@ -1,11 +1,10 @@
 ---
 title: "Basics"
 author: "SKarakala"
-date: "November 16, 2017"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r echo=FALSE, setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
