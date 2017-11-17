@@ -1,13 +1,7 @@
 ---
-title: "Basics"
-author: "SKarakala"
-date: "November 16, 2017"
+title: "Basics of R programming"
 output: html_document
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Basics of R programming
 R programming basics can be divided into **Data Types**, **Data Structures**, and **Object Oriented Programming**_(OOP)_. Let's go briefly over them.
@@ -24,7 +18,7 @@ R programming basics can be divided into **Data Types**, **Data Structures**, an
   * NA    => Missing Values
   * NaN   => Not A Number
   * Inf   => Infinity
-
+Refer to dealing with missing values markdown file
 
 ## Data Structures
 ### 1. Vectors
