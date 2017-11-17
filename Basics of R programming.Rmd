@@ -1,8 +1,20 @@
 ---
+<<<<<<< HEAD
 title: "Basics of R programming"
 output: html_document
 ---
 
+=======
+title: "Basics"
+author: "SKarakala"
+output: html_document
+---
+
+```{r echo=FALSE, setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+>>>>>>> fa0f6600d4b049f0a4c81fc90f03171688803908
 # Basics of R programming
 R programming basics can be divided into **Data Types**, **Data Structures**, and **Object Oriented Programming**_(OOP)_. Let's go briefly over them.
 
