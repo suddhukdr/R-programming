@@ -1,8 +1,11 @@
 # R-programming
-## Topics covered here. Please refer to individual.RMD files
+
+## The following topics are covered here. 
 
 1. Basics of R programming
 
 2. Statistical Methods
 
 3. Machine Learning
+
+Please refer to individual.Rmd files.
