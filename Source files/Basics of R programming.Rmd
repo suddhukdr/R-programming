@@ -4,10 +4,6 @@ author: "SKarakala"
 output: html_document
 ---
 
-```{r echo=FALSE, setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Basics of R programming
 R programming basics can be divided into **Data Types**, **Data Structures**, and **Object Oriented Programming**_(OOP)_. Let's go briefly over them.
 
